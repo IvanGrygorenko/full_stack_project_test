@@ -1,0 +1,91 @@
+/* styles.css */
+
+.container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    color: #2a2a2a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 40px;
+    width: 95%;
+}
+
+li {
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1.03);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    max-width: 170px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+img {
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+    margin: 10px 0;
+    display: block;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 10px;
+}
+
+.create-button {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
